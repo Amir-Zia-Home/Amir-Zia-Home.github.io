@@ -1,0 +1,19 @@
+.md-grid { /* adjust the page's position */
+  max-width: 2450px;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.md-header { /* push the page's main title all the way up */
+    height: 3rem;
+}
+
+.md-typeset h5,
+.md-typeset h6 { /* making <h5><h6> lowercase and giving them the theme's color */ 
+    text-transform: none; /* Prevents uppercasing */
+    color: var(--md-default-fg-color);
+}
+
+.md-sidebar--primary { /* nav tabs on the left pane size */
+  width: 130px;
+}
