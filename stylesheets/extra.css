@@ -4,8 +4,28 @@
   margin-right: auto;
 }
 
-.md-header { /* push the page's main title all the way up */
-    height: 3rem;
+.md-header { 
+    height: 3.3rem;
+}
+
+.md-tabs {
+    min-height: 2rem; /* Ensure tabs themselves fit */
+    margin-top: -0.4rem;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.md-tabs__item {
+    height: 2rem; /* Make sure each tab item fits the header height */
+    line-height: 1rem; /* Vertically center text in tab items */
+    padding: 0 0.5rem; /* Reduce horizontal padding as needed */
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2.5rem; /* Make logo slightly smaller to fit well */
+    width: auto;
 }
 
 .md-typeset h5,
@@ -14,6 +34,11 @@
     color: var(--md-default-fg-color);
 }
 
-.md-sidebar--primary { /* nav tabs on the left pane size */
-  width: 130px;
+.arithmatex {
+  visibility: hidden;
 }
+
+.MathJax {
+  visibility: visible;
+}
+
