@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://Amir-Zia-Home.github.io/sitemap.xml

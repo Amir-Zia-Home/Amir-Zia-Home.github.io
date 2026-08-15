@@ -1,0 +1,13 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Principia Mathematica",
+    "description": "",
+    "home_page_url": "https://Amir-Zia-Home.github.io",
+    "feed_url": "https://Amir-Zia-Home.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Sam"
+    },
+    "items": [
+    ]
+}
